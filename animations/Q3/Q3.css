@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    animation: deslocar 4s infinite;
+}
+
+@keyframes deslocar{
+    0%{
+        left: 0;
+        transform: rotate(45deg);
+    }
+    100%{
+        left: 500px;
+    }
+}
