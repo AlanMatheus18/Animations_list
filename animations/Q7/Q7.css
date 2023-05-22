@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box7{
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    position: absolute;
+    animation: pulse 3s ease-in-out 3;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

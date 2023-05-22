@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    animation: caixa1 3s ease-in-out infinite;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    animation: caixa2 3s ease-in-out infinite;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation: caixa3 3s ease-in-out infinite;
+}
+
+
+@keyframes caixa1{
+    0% {
+        top: 0px;
+      }
+      50% {
+        top: -200px;
+        animation-delay: 10s;
+      }
+      100% {
+        top: 0;
+      }
+    }
+
+
+@keyframes caixa2{
+    0% {
+        top: 0;
+      }
+      50% {
+        top: -200px;
+      }
+      100% {
+        top: 0;
+      }
+}
+
+@keyframes caixa3{
+    0% {
+        top: 0;
+      }
+      50% {
+        top: -200px;
+      }
+      100% {
+        top: 0;
+      }
+}

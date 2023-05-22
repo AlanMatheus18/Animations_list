@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box13{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.box13:hover{
+    border-radius: 0;
+    width: 200px;
+    height: 100px;
+}

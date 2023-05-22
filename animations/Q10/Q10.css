@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box10{
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+    position: absolute;
+    animation: pulsegirar 2s ease-in-out infinite;
+}
+
+@keyframes pulsegirar{
+    0%{
+        transform: scale(1) rotate(0deg);
+    }
+    50%{
+        transform: scale(2) rotate(180deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
+}

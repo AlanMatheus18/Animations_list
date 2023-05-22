@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    position: relative;
+    top: -200px;
+    opacity: 0;
+    animation: slideIn 4s forwards;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
