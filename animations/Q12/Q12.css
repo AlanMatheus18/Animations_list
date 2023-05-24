@@ -16,6 +16,7 @@ body{
     position: relative;
     background-color: blue;
     animation: caixa1 3s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 .box2{
@@ -24,6 +25,7 @@ body{
     background-color: black;
     position: relative;
     animation: caixa2 3s ease-in-out infinite;
+    animation-delay: 4s;
 }
 
 .box3{
@@ -32,6 +34,7 @@ body{
     position: relative;
     background-color: red;
     animation: caixa3 3s ease-in-out infinite;
+    animation-delay: 8s;
 }
 
 
@@ -41,7 +44,6 @@ body{
       }
       50% {
         top: -200px;
-        animation-delay: 10s;
       }
       100% {
         top: 0;
